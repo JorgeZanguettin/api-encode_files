@@ -3,7 +3,6 @@ import base64
 import hashlib
 from flask import Flask, request, url_for, send_from_directory, jsonify
 from werkzeug.utils import secure_filename
-from flask import request
 
 UPLOAD_FOLDER = 'files'
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
